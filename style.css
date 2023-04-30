@@ -308,7 +308,7 @@ div.cont{
     
         @media(max-width: 767px){
             .divcolmain{
-             /stairs.JPG   display: block;
+                display: block;
                 position: relative;
             }
             }
