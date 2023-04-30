@@ -6,15 +6,6 @@
 
 }
 
-.navbar{
-    display: flex;
-}
-
-.container{
-    position: relative;
-    padding: auto;
-    background-color: white;
-}
 
 .container a:hover{
     background: #ddd;
