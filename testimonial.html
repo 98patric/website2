@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><patrickstephanmusic class="com"></patrickstephanmusic></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--link css file to this html document-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <!--css-code, der angibt wie die im htlm-dokument genannten elemente dargestellt werden-->
+    <style>
+		
+		
+		form {
+			display: flex;
+			flex-direction: column;
+		}
+		label {
+			margin-top: 20px;
+		}
+		input[type="text"], textarea {
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+			resize: none;
+		}
+		.rating {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+		}
+		.rating label {
+			font-size: 30px;
+			color: #ccc;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+		.rating label:hover,
+		.rating label:hover ~ label,
+		.rating input:checked ~ label {
+			color: #ffca08;
+		}
+		.rating input {
+			display: none;
+		}
+		button[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 20px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		}
+	</style>
+
+</head>
+<body>
+
+    <!--header-->
+    <header id="header" class="fixed-top"></header>
+    <div class="container d-flex align-items-center">
+    <h1 class="logo mr-auto"><a href="#"></a>patrick stephan<br><br>saxophonist | educator | composer<hr></h1>
+
+    <!--nav bar-->
+   <p>
+    <div class="maincol1">
+   <nav class="nav-menu d-none d-lg-block"></nav>
+   <div class="col8">
+    <ul>
+        <p>
+        <il class="active"><a class="nav-link" href="index.html">home</a></il>
+        <il class="active"><a class="nav-link" href="bio.html">bio</a></il>
+        <il class="active"><a class="nav-link" href="gallery.html">gallery</a></il>
+    </div>
+    <div class="space1"></div>
+    <div class="col9">
+        <il class="active"><a class="nav-link" href="listen.html">listen</a></il>
+        <il class="active"><a class="nav-link" href="contact.html">contact</a></il>
+        <il class="active"><a class="nav-link" href="testimonial.html">testimonial</a></il>
+        </div>
+    </p>
+    </ul>
+    </div>
+</div>
+</p>
+
+	<div class="container">
+		<h2>feedback form</h2>
+        <h3>please leave feedback for patrick here</h3>
+
+		<div class="rating">
+			<input type="radio" id="star1" name="rating" value="1">
+			<label for="star1" title="1 stars">☆</label>
+			<input type="radio" id="star2" name="rating" value="2">
+			<label for="star2" title="2 stars">☆</label>
+			<input type="radio" id="star3" name="rating" value="3">
+			<label for="star3" title="3 stars">☆</label>
+			<input type="radio" id="star4" name="rating" value="4">
+			<label for="star4" title="4 stars">☆</label>
+			<input type="radio" id="star5" name="rating" value="5">
+			<label for="star5" title="5 stars">☆</label></div>
+
+		<form>
+			<textarea id="comment" name="comment" rows="5" placeholder="your comment"></textarea>
+		
+
+              <div class="vertical-center"><button class="submit">submit</button></div><br>
+
+			   <!--unfortunately this method of displaying the previews recommondations is making the browser to download the dada :(
+			   <iframe title="submitfeedback" src="connect.php" width="100%" height="500"></iframe> )-->
+
+			   <script src="js/bootstrap.js"></script>
+
+      <footer class="footer">
+        <il class="active"><a class="footer" href="impressum.html"><br>impressum</a></il>
+      </footer>
+</body>
+</html>
