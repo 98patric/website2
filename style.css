@@ -6,6 +6,11 @@
 
 }
 
+.feedback-form{
+    width: 80%;
+    margin: auto;
+}
+
 
 .container a:hover{
     background: #ddd;
