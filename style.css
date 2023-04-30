@@ -12,7 +12,6 @@
 
 .container{
     position: relative;
-    position: fixed;
     padding: auto;
     background-color: white;
 }
