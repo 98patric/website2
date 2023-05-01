@@ -142,13 +142,30 @@ div.cont{
     font-size: smaller;
 }
 
-
-
-.creditscontent{
-    position: relative;
-    text-align: center;
-    font-size: 11px;
+@media(min-width: 992px){
+    .creditscontent{
+        position: relative;
+        text-align: center;
+        font-size: 11px;
 }
+    }
+    
+    @media(min-width: 768px) and (max-width: 991px){
+        .creditscontent{
+            position: relative;
+            text-align: center;
+            font-size: 11px;
+}
+        }
+    
+        @media(max-width: 767px){
+            .creditscontent{
+                position: relative;
+                text-align: center;
+                font-size: 9px;
+}
+            }
+
 
 .show0{
         display: block;
