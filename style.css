@@ -7,6 +7,17 @@
     gap: 40px;
  }
 
+.button{
+    background-color: #939393;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 20px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
 
 .img-bridge{
     bottom: 50px;
