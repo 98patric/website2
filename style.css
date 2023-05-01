@@ -70,11 +70,6 @@ div.cont{
 
 }
 
-.gallery{
-    position: relative;
-    left: 95px;
-}
-
 .testimonial{
     position: relative;
     left: 95px;
@@ -398,6 +393,27 @@ div.cont{
             margin-right: 10px; 
             cursor: pointer;
             }
+
+@media(min-width: 992px){
+    .image-gallery{
+        align-items: center;
+        width: 80%;
+    }
+    }
+    
+    @media(min-width: 768px) and (max-width: 991px){
+        .image-gallery{
+             align-items: center;
+             width: 80%;
+        }
+        }
+    
+        @media(max-width: 767px){
+            .image-gallery{
+                width: 100%;
+            }
+            }
+
 
 .submit{
     border-radius: 20px;
