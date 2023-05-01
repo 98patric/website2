@@ -397,20 +397,20 @@ div.cont{
 @media(min-width: 992px){
     .image-gallery{
         align-items: center;
-        width: 80%;
+        width: 87%;
     }
     }
     
     @media(min-width: 768px) and (max-width: 991px){
         .image-gallery{
              align-items: center;
-             width: 80%;
+             width: 87%;
         }
         }
     
         @media(max-width: 767px){
             .image-gallery{
-                width: 100%;
+               
             }
             }
 
