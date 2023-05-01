@@ -4,12 +4,8 @@
     font-size: x-large;
     display: block;
     text-align: center;
-    margin-right: 0;
+    gap: 40px;
  }
-
-.d-flex il:last-child {
-  margin-right: 0;
-}
 
 
 .img-bridge{
