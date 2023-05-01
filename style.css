@@ -371,7 +371,7 @@ div.cont{
 
 @media(min-width: 992px){
     #image-gallery{
-            display: flex;
+            
              justify-content: center;
             align-items: center;
         position: relative;
@@ -380,7 +380,7 @@ div.cont{
     
     @media(min-width: 768px) and (max-width: 991px){
         #image-gallery{
-              display: flex;
+              
              justify-content: center;
             align-items: center;
             position: relative;
@@ -389,7 +389,7 @@ div.cont{
     
         @media(max-width: 767px){
             #image-gallery{
-                 display: flex;
+                
              justify-content: center;
             align-items: center;
                 position: relative;
