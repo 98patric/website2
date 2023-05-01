@@ -369,10 +369,34 @@ div.cont{
 }
 
 
- #image-gallery { 
-    width: 600px; 
-    margin: 0 auto;
+@media(min-width: 992px){
+    #image-gallery{
+            display: flex;
+             justify-content: center;
+            align-items: center;
+        position: relative;
     }
+    }
+    
+    @media(min-width: 768px) and (max-width: 991px){
+        #image-gallery{
+              display: flex;
+             justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        }
+    
+        @media(max-width: 767px){
+            #image-gallery{
+                 display: flex;
+             justify-content: center;
+            align-items: center;
+                position: relative;
+               
+            }
+            }
+
     
  #current-image { 
     width: 100%;
@@ -431,7 +455,7 @@ div.cont{
         }
         }
     
-        @media(max-width: 799px){
+        @media(max-width: 767px){
             .image-thumbs{
                 width: 100%;
                 position: relative;
