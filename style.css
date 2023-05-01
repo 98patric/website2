@@ -495,7 +495,7 @@ div.cont{
                 justify-content: center; 
                 margin-top: 20px;
                 flex-grow: 1;
-                width: 50%;
+                min-width: 50%;
         }
             }
 
