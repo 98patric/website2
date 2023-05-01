@@ -3,6 +3,7 @@
 .d-flex{
     font-size: x-large;
     width: 100%;
+    display: flex;
  }
 
 .img-bridge{
