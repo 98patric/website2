@@ -5,6 +5,7 @@
     display: block;
     text-align: center;
     margin-right: 20px;
+    float: left;
  }
 
 .img-bridge{
