@@ -2,8 +2,8 @@
 
 .d-flex{
     font-size: x-large;
-    width: 100%;
-    display: flex;
+    display: block;
+    text-align: center;
  }
 
 .img-bridge{
