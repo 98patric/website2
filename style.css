@@ -401,11 +401,16 @@ div.cont{
 
     
  #current-image { 
-    width: 100%;
-     justify-content: center;
+             justify-content: center;
              align-items: center;
-             position: relative;
     } 
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
  #image-thumbs { 
         display: flex; 
