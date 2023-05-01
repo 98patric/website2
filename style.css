@@ -1,5 +1,9 @@
 *{font-family:Arial !important;}
 
+.navbar{
+    font-size: x-large;
+}
+
 .img-bridge{
     bottom: 50px;
     width: 100%;
