@@ -405,6 +405,7 @@ div.cont{
              align-items: center;
     } 
 
+
 @media(min-width: 992px){
     .center{
         display: block;
@@ -414,6 +415,26 @@ div.cont{
  
     }
     }
+    
+    @media(min-width: 768px) and (max-width: 991px){
+       .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+ 
+    }
+        }
+    
+        @media(max-width: 767px){
+           .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+ 
+    }
+            }
     
     @media(min-width: 768px) and (max-width: 991px){
         .image-thumbs{
