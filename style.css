@@ -373,8 +373,9 @@ div.cont{
     #image-gallery{
             
              justify-content: center;
-            align-items: center;
-        position: relative;
+             align-items: center;
+             position: relative;
+             width: 80%;
     }
     }
     
@@ -382,8 +383,9 @@ div.cont{
         #image-gallery{
               
              justify-content: center;
-            align-items: center;
-            position: relative;
+             align-items: center;
+             position: relative;
+             width: 80%;
         }
         }
     
@@ -391,8 +393,8 @@ div.cont{
             #image-gallery{
                 
              justify-content: center;
-            align-items: center;
-                position: relative;
+             align-items: center;
+             position: relative;
                
             }
             }
