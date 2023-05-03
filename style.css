@@ -314,6 +314,16 @@ div.cont{
     display: none;
 }
 
+.show5{
+      display: block;
+        margin: 0 auto;
+        text-align: center;
+}
+
+#container5{
+    display: none;
+}
+
 
 
 @media(min-width: 992px){
