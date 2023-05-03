@@ -54,12 +54,12 @@ btn4.addEventListener("click", function(){
 });
 
 const btn5 = document.querySelector("#my-btn5");
-const container4 = document.querySelector("#container5");
+const container5 = document.querySelector("#container5");
 
-btn4.addEventListener("click", function(){
-  if(container4.style.display === "block"){
-  container4.style.display = "none";
+btn5.addEventListener("click", function(){
+  if(container5.style.display === "block"){
+  container5.style.display = "none";
 }else{
-  container4.style.display = "block";
+  container5.style.display = "block";
 }
 });
