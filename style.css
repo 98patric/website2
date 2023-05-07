@@ -3,7 +3,7 @@
 .d-flex{
     font-size: x-large;
     display: block;
-    justify-content: space-between;
+    text-align: center;
  }
 
 @media(min-width: 992px){
