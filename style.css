@@ -2,9 +2,8 @@
 
 .d-flex{
     font-size: x-large;
-    display: block;
-    text-align: center;
-    gap: 40px;
+    display: flex;
+    justify-content: space-between;
  }
 
 @media(min-width: 992px){
